@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+ul, li{
+    list-style: none;
+}
+
+nav {
+    background-color:  #5CDB95 !important;
+    color: #f64c72 !important;
+}
+
+.brand-logo{
+    color: #05386B;
+    margin-left: 10px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#nav-mobile > li > a{
+    color: #05386B !important; 
+    font-weight: bold;
+}
+
+form{
+    background-color: #5CDB95 !important;
+    padding: 50px !important;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    
+}
+
+form:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.input-field {
+    color:orange;
+}  
+
+button {
+    background-color: #05386B !important;
+}
+
+form > h1 {
+    color: #05386B !important;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+label{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    color: white !important;
+}
+
+::placeholder{
+    letter-spacing: 5px;
+    color: white;
+}
+
+::placeholder:focus{
+    color: white !important;
+}
+
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    border-bottom: 1px solid white !important;
+}
+
+.card{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
